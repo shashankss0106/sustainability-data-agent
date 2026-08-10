@@ -37,7 +37,7 @@ router) is what makes it an agent rather than a wrapper script.
 User question (plain English)
         │
         ▼
-   Claude (Sonnet) ── decides which tool to call
+   Gemini (Flash) ── decides which tool to call
         │
         ├── get_schema()        → inspects facility_metrics table structure
         │
@@ -54,7 +54,7 @@ important safety boundary for any agent given database access.
 
 ## Tech stack
 
-- **Claude (Anthropic API)** — reasoning and tool-use loop
+- **Gemini (Flash 2.5 API)** — reasoning and tool-use loop
 - **SQLite** — lightweight database, `facility_metrics` table
 - **Python** — orchestration, no additional agent framework required
 
