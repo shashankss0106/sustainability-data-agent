@@ -78,7 +78,7 @@ in the companion Power BI dashboard.
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY="your-key-here"   # get one at console.anthropic.com
+export GOOGLE_API_KEY="your-key-here"   
 python database/load_real_data.py          # builds database/sustainability.db from the real CSV
 python agent.py "your question here"
 ```
